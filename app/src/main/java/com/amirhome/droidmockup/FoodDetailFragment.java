@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.amirhome.droidmockup.dummy.DummyContent;
 
 /**
@@ -56,7 +55,7 @@ public class FoodDetailFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+            Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.food_detail, container, false);
 
         // Show the dummy content as text in a TextView.

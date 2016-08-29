@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.amirhome.myapplication.MainActivity">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_reject"
+        android:title="@string/action_reject"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_accept15"
+        android:title="@string/action_accept15"
+
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_accept30"
+        android:title="@string/action_accept30"
+
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_accept45"
+        android:title="@string/action_accept45"
+
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_accept60"
+        android:title="@string/action_accept60"
+
+        app:showAsAction="always"/>
+
+</menu>
