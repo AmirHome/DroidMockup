@@ -66,9 +66,11 @@ public class DummyContent {
 
     private static String makeDetails(int position) {
         StringBuilder builder = new StringBuilder();
-        builder.append("Details about Order: ").append(position);
+
+        builder.append("Date Order: ").append("2016/08/30 13:18 PM");
+        builder.append("\nAddress Order: Gülbahar Mah. Otello Kamil Sok. No:14 / 8 34394 Istanbul");
         for (int i = 0; i < position; i++) {
-            builder.append("\nMore details information here.");
+            builder.append("\nFood Name "+ i);
         }
         return builder.toString();
     }
